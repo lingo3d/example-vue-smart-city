@@ -7,21 +7,21 @@ specifiers:
   postcss: ^8.4.14
   tailwindcss: ^3.1.4
   typescript: ^4.7.4
-  vite: ^2.9.12
+  vite: ^2.9.13
   vue: ^3.2.37
   vue-tsc: ^0.36.1
 
 dependencies:
-  lingo3d-vue: 1.0.166_vue@3.2.37
+  lingo3d-vue: 1.0.168_vue@3.2.37
   vue: 3.2.37
 
 devDependencies:
-  '@vitejs/plugin-vue': 2.3.3_vite@2.9.12+vue@3.2.37
+  '@vitejs/plugin-vue': 2.3.3_vite@2.9.13+vue@3.2.37
   autoprefixer: 10.4.7_postcss@8.4.14
   postcss: 8.4.14
   tailwindcss: 3.1.4
   typescript: 4.7.4
-  vite: 2.9.12
+  vite: 2.9.13
   vue-tsc: 0.36.1_typescript@4.7.4
 
 packages:
@@ -115,14 +115,14 @@ packages:
     resolution: {integrity: sha512-YPJLSIY6uKUOp1k6BZYDq5GtEIdhfeK04UCbc9IPAVbdn/RNjkfrbnyd7smrsNkJhc0IFASLpd3AAYgwqgXKVQ==}
     dev: false
 
-  /@vitejs/plugin-vue/2.3.3_vite@2.9.12+vue@3.2.37:
+  /@vitejs/plugin-vue/2.3.3_vite@2.9.13+vue@3.2.37:
     resolution: {integrity: sha512-SmQLDyhz+6lGJhPELsBdzXGc+AcaT8stgkbiTFGpXPe8Tl1tJaBw1A6pxDqDuRsVkD8uscrkx3hA7QDOoKYtyw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.12
+      vite: 2.9.13
       vue: 3.2.37
     dev: true
 
@@ -692,8 +692,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /lingo3d-vue/1.0.166_vue@3.2.37:
-    resolution: {integrity: sha512-Va7p6zK9yoaDhL/jWeIMB8jQI69MXArIMqn4C1KSQDhdlu8F+vUk0R6GgUAqaniO/vHgt6AQ2jn+VsA7+BWwLQ==}
+  /lingo3d-vue/1.0.168_vue@3.2.37:
+    resolution: {integrity: sha512-5y7h2HOYKYACygQvbTpM7QcCS9LQ5ZoTkduFWjWHfi2A7OU0b1BQVRIfKpc57KnPafP0HhU8VifVSNErzNVtaQ==}
     peerDependencies:
       vue: ^3.2.25
     dependencies:
@@ -701,15 +701,15 @@ packages:
       '@lincode/reactivity': 1.0.65
       '@lincode/utils': 1.2.51
       '@types/three': 0.140.0
-      lingo3d: 1.10.296
+      lingo3d: 1.10.298
       nanoid: 3.3.4
       popmotion: 11.0.3
       stats.js: 0.17.0
       vue: 3.2.37
     dev: false
 
-  /lingo3d/1.10.296:
-    resolution: {integrity: sha512-kNdPS+LYc8gY3olpZQFlhq1Qw98qO6AcGmtECiprdYzlzLHKcCwOR6dcWTtQKRXssTs+vVXzrp7FqSKq7uMO0Q==}
+  /lingo3d/1.10.298:
+    resolution: {integrity: sha512-Kj7clfjRXe4Vx+p8blRpXfcflZ3eClYBUAwOZTCV4nEi/S6wOszGXAIkaqZg75IE4pyO/7cdFZoV/vuIDZ4vmg==}
     dependencies:
       '@lincode/events': 1.0.24
       '@lincode/filetypes': 1.0.1
@@ -1054,8 +1054,8 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite/2.9.12:
-    resolution: {integrity: sha512-suxC36dQo9Rq1qMB2qiRorNJtJAdxguu5TMvBHOc/F370KvqAe9t48vYp+/TbPKRNrMh/J55tOUmkuIqstZaew==}
+  /vite/2.9.13:
+    resolution: {integrity: sha512-AsOBAaT0AD7Mhe8DuK+/kE4aWYFMx/i0ZNi98hJclxb4e0OhQcZYUrvLjIaQ8e59Ui7txcvKMiJC1yftqpQoDw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:

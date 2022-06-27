@@ -17,14 +17,10 @@ const props = defineProps({
   },
 });
 
-const handleClick = () =>
-  setTimeout(() => {
-    if (objectSelectedState.name === props.name) {
-      objectSelectedState.name = "";
-    } else {
-      objectSelectedState.name = props.name;
-    }
-  }, 100);
+const handleClick = () => {
+  if (objectSelectedState.name === props.name) objectSelectedState.name = "";
+  else objectSelectedState.name = props.name;
+};
 </script>
 
 <template>
