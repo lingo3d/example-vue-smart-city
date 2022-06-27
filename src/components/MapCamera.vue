@@ -17,13 +17,14 @@ const props = defineProps({
   },
 });
 
-const handleClick = () => {
-  if (objectSelectedState.name === props.name) {
-    objectSelectedState.name = "";
-  } else {
-    objectSelectedState.name = props.name;
-  }
-};
+const handleClick = () =>
+  setTimeout(() => {
+    if (objectSelectedState.name === props.name) {
+      objectSelectedState.name = "";
+    } else {
+      objectSelectedState.name = props.name;
+    }
+  }, 100);
 </script>
 
 <template>
@@ -36,7 +37,7 @@ const handleClick = () => {
     <HTML>
       <div
         className="p-2 backdrop-blur-xl absolute text-white pointer-events-auto cursor-pointer rounded-md overflow-hidden"
-        @click="handleClick"
+        @mousedown="handleClick"
       >
         {{ title }}
       </div>

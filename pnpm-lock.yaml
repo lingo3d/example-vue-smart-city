@@ -12,7 +12,7 @@ specifiers:
   vue-tsc: ^0.36.1
 
 dependencies:
-  lingo3d-vue: 1.0.165_vue@3.2.37
+  lingo3d-vue: 1.0.166_vue@3.2.37
   vue: 3.2.37
 
 devDependencies:
@@ -692,8 +692,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /lingo3d-vue/1.0.165_vue@3.2.37:
-    resolution: {integrity: sha512-qKQ1/YpJ1EAJ4nSC/D3suYnjJfMLB8qXhAY0W8WI2YgC6rprJkJ+NqGK+LauHoa9f/qSSn5q+68cD+7FbR46WQ==}
+  /lingo3d-vue/1.0.166_vue@3.2.37:
+    resolution: {integrity: sha512-Va7p6zK9yoaDhL/jWeIMB8jQI69MXArIMqn4C1KSQDhdlu8F+vUk0R6GgUAqaniO/vHgt6AQ2jn+VsA7+BWwLQ==}
     peerDependencies:
       vue: ^3.2.25
     dependencies:
@@ -701,15 +701,15 @@ packages:
       '@lincode/reactivity': 1.0.65
       '@lincode/utils': 1.2.51
       '@types/three': 0.140.0
-      lingo3d: 1.10.281
+      lingo3d: 1.10.296
       nanoid: 3.3.4
       popmotion: 11.0.3
       stats.js: 0.17.0
       vue: 3.2.37
     dev: false
 
-  /lingo3d/1.10.281:
-    resolution: {integrity: sha512-nG+KKaJP2VVuz1RpGIwQr4G0LdrloI8teWzYg8j0JYkJ5AP7vAAHHWcB/y9BoRUbQH1b9by8OCB1EeUg0j0xhw==}
+  /lingo3d/1.10.296:
+    resolution: {integrity: sha512-kNdPS+LYc8gY3olpZQFlhq1Qw98qO6AcGmtECiprdYzlzLHKcCwOR6dcWTtQKRXssTs+vVXzrp7FqSKq7uMO0Q==}
     dependencies:
       '@lincode/events': 1.0.24
       '@lincode/filetypes': 1.0.1
