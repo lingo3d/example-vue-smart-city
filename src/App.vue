@@ -8,7 +8,7 @@ import objectSelected from "./states/objectSelectedState"
 </script>
 
 <template>
-  <World defaultLight="env.hdr" color="rgb(0, 0, 25)">
+  <World defaultLight="env.hdr" color="rgb(80, 80, 150)">
     <!-- light that casts shadows -->
     <!-- 投射阴影的灯光 -->
     <DirectionalLight
