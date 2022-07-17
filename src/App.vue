@@ -16,7 +16,6 @@ import objectSelected from "./states/objectSelectedState"
       :y="1000"
       :z="1000"
       :shadowDistance="500"
-      :shadowResolution="2048"
     />
 
     <!-- default camera, active when no object is selected -->
