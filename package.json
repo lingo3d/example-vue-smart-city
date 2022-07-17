@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "lingodeploy examples/smart-city"
   },
   "dependencies": {
     "lingo3d-vue": "latest",

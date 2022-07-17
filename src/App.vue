@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { World, OrbitCamera, Model } from "lingo3d-vue"
+import { World, OrbitCamera, Model, DirectionalLight } from "lingo3d-vue"
 import MapCamera from "./components/MapCamera.vue"
 
 //global state that determines the selected object
@@ -9,6 +9,15 @@ import objectSelected from "./states/objectSelectedState"
 
 <template>
   <World defaultLight="env.hdr" color="rgb(0, 0, 25)">
+    <!-- light that casts shadows -->
+    <!-- 投射阴影的灯光 -->
+    <DirectionalLight
+      :x="1000"
+      :y="1000"
+      :z="1000"
+      :shadowDistance="500"
+      :shadowResolution="2048"
+    />
 
     <!-- default camera, active when no object is selected -->
     <!-- 默认相机，没有选中任何物体时启动 -->
@@ -26,9 +35,7 @@ import objectSelected from "./states/objectSelectedState"
     <!-- map model -->
     <!-- 地图模型 -->
     <Model
-      :metalnessFactor="0.5"
-      :roughnessFactor="0.5"
-      pbr
+      :metalnessFactor="2"
       :y="46.67"
       :width="552.32"
       :depth="572.75"
